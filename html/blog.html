@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 Assignment Five</title>
+
+    <!-- DaisyUi Cdn -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <section class="bg-[#F9F7F3] ">
+            <nav  class="mb-0  py-5 flex w-10/12 mx-auto justify-between items-center gap-12">
+                <div>
+                    <button class="btn font-bold bg-[#B4F461] px-7 py-4">Home</button>
+                </div>
+    
+                <div class="flex items-center gap-2">
+                    <span>
+                        <img src="/assets/logo.png" alt="">
+                    </span>                
+                    <h2 class="font-bold text-[20px]">Donate Bangladesh</h2>
+                </div>
+    
+                <div class=" font-bold flex gap-1">
+                    <span><img src="/assets/coin.png"></span>
+                    <h2 id="navbar-money">5500</h2>
+                    <p>BDT</p>
+                </div>
+    
+            </nav>
+
+        </section>
+    </header>
+    <main>
+        <section class="mt-10">
+            
+                <div class="w-10/12 mx-auto">
+
+                    <h1 class="text-5xl font-bold mb-9">Important FAQ <i class="fa-solid fa-star"></i> </h1>
+                    <div class="border-2 rounded-xl shadow-2xl py-7 px-3 ">
+                    <div class="my-7">
+                        <div tabindex="0" class="collapse border-base-300 bg-base-200 border">
+                            <div class="collapse-title text-xl font-bold text-text1">What is the Document Object Model (DOM)?</div>
+                            <div class="collapse-content">
+                            <p class="text-base font-bold text-text2">Answer: The Document Object Model (DOM) is an application programming interface (API) for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- two -->
+                    <div class="my-7">
+                        <div tabindex="0" class="collapse border-base-300 bg-base-200 border">
+                            <div class="collapse-title text-xl font-bold text-text1">How do you select an element from the DOM?</div>
+                            <div class="collapse-content">
+                            <p class="text-base font-bold text-text2">1
+                                Using getElementById: The getElementById </p>
+                            <p class="text-base font-bold text-text2">2
+                                Using getElementsByClassName:</p>
+                            <p class="text-base font-bold text-text2">3
+                                Using getElementsByTagName:</p>
+                            <p class="text-base font-bold text-text2">4
+                                Using querySelector:</p>
+                            <p class="text-base font-bold text-text2">5
+                                Using querySelectorAll:</p>
+                            <p class="text-base font-bold text-text2">6
+                                Changing the HTML Content: (etc)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- three -->
+
+                    <div class="my-7">
+                        <div tabindex="0" class="collapse border-base-300 bg-base-200 border">
+                            <div class="collapse-title text-xl font-bold text-text1">What is event delegation in the context of the DOM, and why is it useful?</div>
+                            <div class="collapse-content">
+                            <p class="text-base font-bold text-text2">Answer: Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-7">
+                        <div tabindex="0" class="collapse border-base-300 bg-base-200 border">
+                            <div class="collapse-title text-xl font-bold text-text1">How do you manipulate an element's attributes and styles using the DOM?</div>
+                            <div class="collapse-content">
+                            <p class="text-base font-bold text-text2">Answer: Changing an element's style (CSS) attributes is one of the ways in which the DOM can be used. For example, in the code below, the onfocus event handler method is used to change the input element's style when the user clicks inside it. When this event occurs, the element's background color will change to purple.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+               </div>
+
+        </section>
+    </main>
+    <script src="/js/blog.js"></script>
+</body>
+</html>
