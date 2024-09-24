@@ -9,13 +9,17 @@ function allUnhide(hide){
 }
 
 
-
-
 //  work-02 money
 function getInputFieldValueById(id){
     const inputValue = document.getElementById(id).value;
     const inputNumber =parseFloat(inputValue);
     return inputNumber;
+}
+
+// Title Item 
+function ContainerTittle(title){
+    const Text=document.getElementById(title).innerText;
+    return Text
 }
 
 // balance add & out
