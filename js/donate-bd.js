@@ -35,7 +35,7 @@ document.getElementById('DonateNowBtnOneSection').addEventListener("click", func
 
     } 
     else {
-      alert("Error ! Amr Taka Nai");
+      alert("Error ! You don't have enough money");
     }
 
 })
@@ -80,7 +80,7 @@ document.getElementById('DonateNowBtnTwoSection').addEventListener("click", func
 
     } 
     else {
-      alert("Error !  Amr Taka Nai");
+      alert("Error !  You don't have enough money");
     }
 
 })
@@ -124,7 +124,7 @@ document.getElementById('DonateNowBtnThreeSection').addEventListener("click", fu
 
     } 
     else {
-      alert("Error !  Amr Taka Nai");
+      alert("Error !  You don't have enough money");
     }
 
 })
