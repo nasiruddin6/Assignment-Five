@@ -1,12 +1,14 @@
 
 // all-section & transaction hidden
 function allUnhide(hide){
-    const transactionsHistory =document.getElementById('HistoryInfo').classList.add('hidden')
-    const allSectionForm =document.getElementById('all-section-form').classList.add('hidden')
-
+    const allSectionForm =document.getElementById('AllDonatePart').classList.add('hidden')
+    const HistoryInfo =document.getElementById('HistoryInfo').classList.add('hidden')
+   
     const unhide =document.getElementById(hide).classList.remove('hidden')
 
 }
+
+
 
 
 //  work-02 money
